@@ -1,0 +1,12 @@
+name: Build, tests and deploy
+on:
+  push:
+    branches:
+      - "main"
+      - "release/*"
+      - "feature/*"
+      - "hotfix/*"
+
+jobs:
+  call-build-and-publish:
+    uses: ./.github/workflows-templates/build-and-publish.yml
