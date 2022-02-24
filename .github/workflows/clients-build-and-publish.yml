@@ -9,4 +9,4 @@ on:
 
 jobs:
   call-build-and-publish:
-    uses: ./.github/workflows-templates/build-and-publish.yml
+    uses: igr-santos/github-actions-samples/.github/workflows/build-and-publish.yml@main
